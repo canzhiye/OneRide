@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E377C67198E41BF0061126B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E377C66198E41BF0061126B /* CoreLocation.framework */; };
+		3E377C69198E41CC0061126B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E377C68198E41CC0061126B /* QuartzCore.framework */; };
+		3E377C6B198E41D20061126B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E377C6A198E41D20061126B /* libz.dylib */; };
+		3E377C6D198E41DA0061126B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E377C6C198E41DA0061126B /* libsqlite3.dylib */; };
+		3E377C71198E44610061126B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E377C70198E44610061126B /* MapKit.framework */; };
+		3E83D79B198E96C5003DA6B0 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D791198E96C5003DA6B0 /* OpenSans-Bold.ttf */; };
+		3E83D79C198E96C5003DA6B0 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D792198E96C5003DA6B0 /* OpenSans-BoldItalic.ttf */; };
+		3E83D79D198E96C5003DA6B0 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D793198E96C5003DA6B0 /* OpenSans-ExtraBold.ttf */; };
+		3E83D79E198E96C5003DA6B0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D794198E96C5003DA6B0 /* OpenSans-ExtraBoldItalic.ttf */; };
+		3E83D79F198E96C5003DA6B0 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D795198E96C5003DA6B0 /* OpenSans-Italic.ttf */; };
+		3E83D7A0198E96C5003DA6B0 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D796198E96C5003DA6B0 /* OpenSans-Light.ttf */; };
+		3E83D7A1198E96C5003DA6B0 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D797198E96C5003DA6B0 /* OpenSans-LightItalic.ttf */; };
+		3E83D7A2198E96C5003DA6B0 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D798198E96C5003DA6B0 /* OpenSans-Regular.ttf */; };
+		3E83D7A3198E96C5003DA6B0 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D799198E96C5003DA6B0 /* OpenSans-Semibold.ttf */; };
+		3E83D7A4198E96C5003DA6B0 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E83D79A198E96C5003DA6B0 /* OpenSans-SemiboldItalic.ttf */; };
+		711F8915198DDE0E0061D932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8914198DDE0E0061D932 /* Foundation.framework */; };
+		711F8917198DDE0E0061D932 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8916198DDE0E0061D932 /* CoreGraphics.framework */; };
+		711F8919198DDE0E0061D932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8918198DDE0E0061D932 /* UIKit.framework */; };
+		711F891F198DDE0E0061D932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711F891D198DDE0E0061D932 /* InfoPlist.strings */; };
+		711F8921198DDE0E0061D932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F8920198DDE0E0061D932 /* main.m */; };
+		711F8925198DDE0E0061D932 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F8924198DDE0E0061D932 /* AppDelegate.m */; };
+		711F8928198DDE0E0061D932 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711F8926198DDE0E0061D932 /* Main.storyboard */; };
+		711F892B198DDE0E0061D932 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F892A198DDE0E0061D932 /* ViewController.m */; };
+		711F892D198DDE0E0061D932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711F892C198DDE0E0061D932 /* Images.xcassets */; };
+		711F8934198DDE0E0061D932 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8933198DDE0E0061D932 /* XCTest.framework */; };
+		711F8935198DDE0E0061D932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8914198DDE0E0061D932 /* Foundation.framework */; };
+		711F8936198DDE0E0061D932 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8918198DDE0E0061D932 /* UIKit.framework */; };
+		711F893E198DDE0E0061D932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 711F893C198DDE0E0061D932 /* InfoPlist.strings */; };
+		711F8940198DDE0E0061D932 /* OneRideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F893F198DDE0E0061D932 /* OneRideTests.m */; };
+		711F894B198DDEED0061D932 /* API.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F894A198DDEED0061D932 /* API.m */; };
+		711F894F198DF03E0061D932 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F894E198DF03E0061D932 /* Car.m */; };
+		711F8955198E02CC0061D932 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F8954198E02CC0061D932 /* SettingsViewController.m */; };
+		711F8957198E1F500061D932 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8956198E1F500061D932 /* Mapbox.framework */; };
+		711F895F198E35F70061D932 /* CarTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F895E198E35F70061D932 /* CarTableViewCell.m */; };
+		711F896B198E44700061D932 /* DestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F896A198E44700061D932 /* DestinationViewController.m */; };
+		711F896E198E47E40061D932 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 711F896D198E47E40061D932 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		711F8971198E54F30061D932 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711F8970198E54F30061D932 /* Mapbox.framework */; };
+		719C5633198E653D009C0B0C /* Mapbox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 719C5632198E653C009C0B0C /* Mapbox.bundle */; };
+		FC28B74E19A259FF00AAE84E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC28B74D19A259FF00AAE84E /* LoginViewController.m */; };
+		FCDA904D19A5544300D0692D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDA904C19A5544300D0692D /* FacebookSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		711F8937198DDE0E0061D932 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 711F8909198DDE0E0061D932 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 711F8910198DDE0E0061D932;
+			remoteInfo = OneRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E377C66198E41BF0061126B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3E377C68198E41CC0061126B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E377C6A198E41D20061126B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3E377C6C198E41DA0061126B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		3E377C70198E44610061126B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3E83D78E198E599C003DA6B0 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		3E83D791198E96C5003DA6B0 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		3E83D792198E96C5003DA6B0 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3E83D793198E96C5003DA6B0 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3E83D794198E96C5003DA6B0 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3E83D795198E96C5003DA6B0 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		3E83D796198E96C5003DA6B0 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		3E83D797198E96C5003DA6B0 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		3E83D798198E96C5003DA6B0 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		3E83D799198E96C5003DA6B0 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		3E83D79A198E96C5003DA6B0 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		711F8911198DDE0E0061D932 /* OneRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F8914198DDE0E0061D932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		711F8916198DDE0E0061D932 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		711F8918198DDE0E0061D932 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		711F891C198DDE0E0061D932 /* OneRide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneRide-Info.plist"; sourceTree = "<group>"; };
+		711F891E198DDE0E0061D932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711F8920198DDE0E0061D932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		711F8922198DDE0E0061D932 /* OneRide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneRide-Prefix.pch"; sourceTree = "<group>"; };
+		711F8923198DDE0E0061D932 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		711F8924198DDE0E0061D932 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		711F8927198DDE0E0061D932 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		711F8929198DDE0E0061D932 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		711F892A198DDE0E0061D932 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		711F892C198DDE0E0061D932 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		711F8932198DDE0E0061D932 /* OneRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		711F8933198DDE0E0061D932 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		711F893B198DDE0E0061D932 /* OneRideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneRideTests-Info.plist"; sourceTree = "<group>"; };
+		711F893D198DDE0E0061D932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		711F893F198DDE0E0061D932 /* OneRideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneRideTests.m; sourceTree = "<group>"; };
+		711F8949198DDEED0061D932 /* API.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		711F894A198DDEED0061D932 /* API.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = API.m; sourceTree = "<group>"; };
+		711F894D198DF03E0061D932 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		711F894E198DF03E0061D932 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		711F8953198E02CC0061D932 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		711F8954198E02CC0061D932 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		711F8956198E1F500061D932 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = ../../../Downloads/Mapbox.framework; sourceTree = "<group>"; };
+		711F895D198E35F70061D932 /* CarTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarTableViewCell.h; sourceTree = "<group>"; };
+		711F895E198E35F70061D932 /* CarTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarTableViewCell.m; sourceTree = "<group>"; };
+		711F8969198E44700061D932 /* DestinationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationViewController.h; sourceTree = "<group>"; };
+		711F896A198E44700061D932 /* DestinationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationViewController.m; sourceTree = "<group>"; };
+		711F896C198E47E40061D932 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		711F896D198E47E40061D932 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		711F8970198E54F30061D932 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		719C5632198E653C009C0B0C /* Mapbox.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Mapbox.bundle; path = Mapbox.framework/Versions/A/Resources/Mapbox.bundle; sourceTree = SOURCE_ROOT; };
+		FC28B74C19A259FF00AAE84E /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FC28B74D19A259FF00AAE84E /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FCDA904C19A5544300D0692D /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		711F890E198DDE0E0061D932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E377C71198E44610061126B /* MapKit.framework in Frameworks */,
+				3E377C6D198E41DA0061126B /* libsqlite3.dylib in Frameworks */,
+				3E377C6B198E41D20061126B /* libz.dylib in Frameworks */,
+				3E377C69198E41CC0061126B /* QuartzCore.framework in Frameworks */,
+				3E377C67198E41BF0061126B /* CoreLocation.framework in Frameworks */,
+				711F8917198DDE0E0061D932 /* CoreGraphics.framework in Frameworks */,
+				711F8919198DDE0E0061D932 /* UIKit.framework in Frameworks */,
+				711F8915198DDE0E0061D932 /* Foundation.framework in Frameworks */,
+				FCDA904D19A5544300D0692D /* FacebookSDK.framework in Frameworks */,
+				711F8957198E1F500061D932 /* Mapbox.framework in Frameworks */,
+				711F8971198E54F30061D932 /* Mapbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F892F198DDE0E0061D932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F8934198DDE0E0061D932 /* XCTest.framework in Frameworks */,
+				711F8936198DDE0E0061D932 /* UIKit.framework in Frameworks */,
+				711F8935198DDE0E0061D932 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		711F8908198DDE0E0061D932 = {
+			isa = PBXGroup;
+			children = (
+				711F891A198DDE0E0061D932 /* OneRide */,
+				711F8939198DDE0E0061D932 /* OneRideTests */,
+				711F8913198DDE0E0061D932 /* Frameworks */,
+				711F8912198DDE0E0061D932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		711F8912198DDE0E0061D932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711F8911198DDE0E0061D932 /* OneRide.app */,
+				711F8932198DDE0E0061D932 /* OneRideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		711F8913198DDE0E0061D932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCDA904C19A5544300D0692D /* FacebookSDK.framework */,
+				711F8970198E54F30061D932 /* Mapbox.framework */,
+				3E377C70198E44610061126B /* MapKit.framework */,
+				3E377C6C198E41DA0061126B /* libsqlite3.dylib */,
+				3E377C6A198E41D20061126B /* libz.dylib */,
+				3E377C68198E41CC0061126B /* QuartzCore.framework */,
+				3E377C66198E41BF0061126B /* CoreLocation.framework */,
+				711F8914198DDE0E0061D932 /* Foundation.framework */,
+				711F8916198DDE0E0061D932 /* CoreGraphics.framework */,
+				711F8918198DDE0E0061D932 /* UIKit.framework */,
+				711F8933198DDE0E0061D932 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		711F891A198DDE0E0061D932 /* OneRide */ = {
+			isa = PBXGroup;
+			children = (
+				711F895C198E35E40061D932 /* Views */,
+				711F894C198DF0310061D932 /* Models */,
+				711F896F198E47E90061D932 /* Categories */,
+				711F8949198DDEED0061D932 /* API.h */,
+				711F894A198DDEED0061D932 /* API.m */,
+				3E83D78E198E599C003DA6B0 /* Constants.h */,
+				711F8923198DDE0E0061D932 /* AppDelegate.h */,
+				711F8924198DDE0E0061D932 /* AppDelegate.m */,
+				711F8929198DDE0E0061D932 /* ViewController.h */,
+				711F892A198DDE0E0061D932 /* ViewController.m */,
+				FC28B74C19A259FF00AAE84E /* LoginViewController.h */,
+				FC28B74D19A259FF00AAE84E /* LoginViewController.m */,
+				711F8926198DDE0E0061D932 /* Main.storyboard */,
+				711F892C198DDE0E0061D932 /* Images.xcassets */,
+				711F891B198DDE0E0061D932 /* Supporting Files */,
+				711F8953198E02CC0061D932 /* SettingsViewController.h */,
+				711F8954198E02CC0061D932 /* SettingsViewController.m */,
+				711F8969198E44700061D932 /* DestinationViewController.h */,
+				711F896A198E44700061D932 /* DestinationViewController.m */,
+			);
+			path = OneRide;
+			sourceTree = "<group>";
+		};
+		711F891B198DDE0E0061D932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E83D791198E96C5003DA6B0 /* OpenSans-Bold.ttf */,
+				3E83D792198E96C5003DA6B0 /* OpenSans-BoldItalic.ttf */,
+				3E83D793198E96C5003DA6B0 /* OpenSans-ExtraBold.ttf */,
+				3E83D794198E96C5003DA6B0 /* OpenSans-ExtraBoldItalic.ttf */,
+				3E83D795198E96C5003DA6B0 /* OpenSans-Italic.ttf */,
+				3E83D796198E96C5003DA6B0 /* OpenSans-Light.ttf */,
+				3E83D797198E96C5003DA6B0 /* OpenSans-LightItalic.ttf */,
+				3E83D798198E96C5003DA6B0 /* OpenSans-Regular.ttf */,
+				3E83D799198E96C5003DA6B0 /* OpenSans-Semibold.ttf */,
+				3E83D79A198E96C5003DA6B0 /* OpenSans-SemiboldItalic.ttf */,
+				719C5632198E653C009C0B0C /* Mapbox.bundle */,
+				711F891C198DDE0E0061D932 /* OneRide-Info.plist */,
+				711F891D198DDE0E0061D932 /* InfoPlist.strings */,
+				711F8920198DDE0E0061D932 /* main.m */,
+				711F8922198DDE0E0061D932 /* OneRide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711F8939198DDE0E0061D932 /* OneRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				711F893F198DDE0E0061D932 /* OneRideTests.m */,
+				711F893A198DDE0E0061D932 /* Supporting Files */,
+			);
+			path = OneRideTests;
+			sourceTree = "<group>";
+		};
+		711F893A198DDE0E0061D932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				711F893B198DDE0E0061D932 /* OneRideTests-Info.plist */,
+				711F893C198DDE0E0061D932 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		711F894C198DF0310061D932 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				711F894D198DF03E0061D932 /* Car.h */,
+				711F894E198DF03E0061D932 /* Car.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		711F895C198E35E40061D932 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				711F895D198E35F70061D932 /* CarTableViewCell.h */,
+				711F895E198E35F70061D932 /* CarTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		711F896F198E47E90061D932 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				711F896C198E47E40061D932 /* NSData+Base64.h */,
+				711F896D198E47E40061D932 /* NSData+Base64.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		711F8910198DDE0E0061D932 /* OneRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711F8943198DDE0E0061D932 /* Build configuration list for PBXNativeTarget "OneRide" */;
+			buildPhases = (
+				711F890D198DDE0E0061D932 /* Sources */,
+				711F890E198DDE0E0061D932 /* Frameworks */,
+				711F890F198DDE0E0061D932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneRide;
+			productName = OneRide;
+			productReference = 711F8911198DDE0E0061D932 /* OneRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		711F8931198DDE0E0061D932 /* OneRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 711F8946198DDE0E0061D932 /* Build configuration list for PBXNativeTarget "OneRideTests" */;
+			buildPhases = (
+				711F892E198DDE0E0061D932 /* Sources */,
+				711F892F198DDE0E0061D932 /* Frameworks */,
+				711F8930198DDE0E0061D932 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711F8938198DDE0E0061D932 /* PBXTargetDependency */,
+			);
+			name = OneRideTests;
+			productName = OneRideTests;
+			productReference = 711F8932198DDE0E0061D932 /* OneRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		711F8909198DDE0E0061D932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Canzhi Ye";
+				TargetAttributes = {
+					711F8910198DDE0E0061D932 = {
+						DevelopmentTeam = 6C38L3A3L8;
+					};
+					711F8931198DDE0E0061D932 = {
+						TestTargetID = 711F8910198DDE0E0061D932;
+					};
+				};
+			};
+			buildConfigurationList = 711F890C198DDE0E0061D932 /* Build configuration list for PBXProject "OneRide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 711F8908198DDE0E0061D932;
+			productRefGroup = 711F8912198DDE0E0061D932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				711F8910198DDE0E0061D932 /* OneRide */,
+				711F8931198DDE0E0061D932 /* OneRideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		711F890F198DDE0E0061D932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E83D79F198E96C5003DA6B0 /* OpenSans-Italic.ttf in Resources */,
+				3E83D79C198E96C5003DA6B0 /* OpenSans-BoldItalic.ttf in Resources */,
+				719C5633198E653D009C0B0C /* Mapbox.bundle in Resources */,
+				3E83D7A3198E96C5003DA6B0 /* OpenSans-Semibold.ttf in Resources */,
+				3E83D79D198E96C5003DA6B0 /* OpenSans-ExtraBold.ttf in Resources */,
+				711F892D198DDE0E0061D932 /* Images.xcassets in Resources */,
+				3E83D7A1198E96C5003DA6B0 /* OpenSans-LightItalic.ttf in Resources */,
+				711F891F198DDE0E0061D932 /* InfoPlist.strings in Resources */,
+				3E83D79B198E96C5003DA6B0 /* OpenSans-Bold.ttf in Resources */,
+				711F8928198DDE0E0061D932 /* Main.storyboard in Resources */,
+				3E83D7A4198E96C5003DA6B0 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				3E83D7A0198E96C5003DA6B0 /* OpenSans-Light.ttf in Resources */,
+				3E83D7A2198E96C5003DA6B0 /* OpenSans-Regular.ttf in Resources */,
+				3E83D79E198E96C5003DA6B0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F8930198DDE0E0061D932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F893E198DDE0E0061D932 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		711F890D198DDE0E0061D932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F895F198E35F70061D932 /* CarTableViewCell.m in Sources */,
+				711F894F198DF03E0061D932 /* Car.m in Sources */,
+				711F892B198DDE0E0061D932 /* ViewController.m in Sources */,
+				711F896B198E44700061D932 /* DestinationViewController.m in Sources */,
+				FC28B74E19A259FF00AAE84E /* LoginViewController.m in Sources */,
+				711F8925198DDE0E0061D932 /* AppDelegate.m in Sources */,
+				711F8955198E02CC0061D932 /* SettingsViewController.m in Sources */,
+				711F894B198DDEED0061D932 /* API.m in Sources */,
+				711F8921198DDE0E0061D932 /* main.m in Sources */,
+				711F896E198E47E40061D932 /* NSData+Base64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		711F892E198DDE0E0061D932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711F8940198DDE0E0061D932 /* OneRideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		711F8938198DDE0E0061D932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 711F8910198DDE0E0061D932 /* OneRide */;
+			targetProxy = 711F8937198DDE0E0061D932 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		711F891D198DDE0E0061D932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711F891E198DDE0E0061D932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		711F8926198DDE0E0061D932 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711F8927198DDE0E0061D932 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		711F893C198DDE0E0061D932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				711F893D198DDE0E0061D932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		711F8941198DDE0E0061D932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		711F8942198DDE0E0061D932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		711F8944198DDE0E0061D932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/coultonvento/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneRide/OneRide-Prefix.pch";
+				INFOPLIST_FILE = "OneRide/OneRide-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		711F8945198DDE0E0061D932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/coultonvento/Downloads,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneRide/OneRide-Prefix.pch";
+				INFOPLIST_FILE = "OneRide/OneRide-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		711F8947198DDE0E0061D932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneRide.app/OneRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneRide/OneRide-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OneRideTests/OneRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		711F8948198DDE0E0061D932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneRide.app/OneRide";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneRide/OneRide-Prefix.pch";
+				INFOPLIST_FILE = "OneRideTests/OneRideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		711F890C198DDE0E0061D932 /* Build configuration list for PBXProject "OneRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F8941198DDE0E0061D932 /* Debug */,
+				711F8942198DDE0E0061D932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711F8943198DDE0E0061D932 /* Build configuration list for PBXNativeTarget "OneRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F8944198DDE0E0061D932 /* Debug */,
+				711F8945198DDE0E0061D932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		711F8946198DDE0E0061D932 /* Build configuration list for PBXNativeTarget "OneRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				711F8947198DDE0E0061D932 /* Debug */,
+				711F8948198DDE0E0061D932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 711F8909198DDE0E0061D932 /* Project object */;
+}

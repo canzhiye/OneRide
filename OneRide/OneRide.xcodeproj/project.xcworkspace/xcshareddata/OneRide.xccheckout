@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1E73D51C-7060-41C3-8DEB-578291DA7AF2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OneRide</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C12617BD1C056C1ADC1B7E97BC91F3AED7F97588</key>
+		<string>https://github.com/jonathanzong/OneRide.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OneRide/OneRide.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C12617BD1C056C1ADC1B7E97BC91F3AED7F97588</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jonathanzong/OneRide.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C12617BD1C056C1ADC1B7E97BC91F3AED7F97588</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C12617BD1C056C1ADC1B7E97BC91F3AED7F97588</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OneRide</string>
+		</dict>
+	</array>
+</dict>
+</plist>
